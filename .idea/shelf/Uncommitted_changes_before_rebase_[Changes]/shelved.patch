@@ -1,0 +1,60 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"7a3f2373-1aed-47c8-9466-5a3bb3043fb0\" name=\"Changes\" comment=\"update fontend\">\r\n      <change afterPath=\"$PROJECT_DIR$/Images/BackGround/z3958523590749_cc39c7ceba0a07594c2427adbfac59a4.jpg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Images/BackGround/z3958523595058_a391835201b2a72ae90283d09d37e80a.jpg\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/JSMD4/profile_coach.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/JSMD4/profile_coach.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/JSMD4/tables.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/JSMD4/tables.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/_Wrapper_Footer.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/_Wrapper_Footer.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/assets/css/app-style.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/assets/css/app-style.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/login.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/login.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/profile_coach.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/profile_coach.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/profile_player.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/profile_player.html\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"JavaScript File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2IoHnH5ceQwq1eT4SaDj4rcH1ZD\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"last_opened_file_path\": \"C:/Users/Van vui ve/Desktop/new_case1/FoolBall_view/Images/BackGround\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"settings.editor.selected.configurable\": \"project.scopes\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Van vui ve\\Desktop\\new_case1\\FoolBall_view\\Images\\BackGround\" />\r\n      <recent name=\"C:\\Users\\Van vui ve\\Desktop\\new_case1\\FoolBall_view\\.idea\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Van vui ve\\Desktop\\new_case1\\FoolBall_view\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration default=\"true\" type=\"JetRunConfigurationType\">\r\n      <module name=\"FoolBall_view\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"KotlinStandaloneScriptRunConfigurationType\">\r\n      <module name=\"FoolBall_view\" />\r\n      <option name=\"filePath\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"7a3f2373-1aed-47c8-9466-5a3bb3043fb0\" name=\"Changes\" comment=\"\" />\r\n      <created>1670841182427</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1670841182427</updated>\r\n      <workItem from=\"1670841186424\" duration=\"220000\" />\r\n      <workItem from=\"1670850062805\" duration=\"2650000\" />\r\n      <workItem from=\"1670894899283\" duration=\"5000\" />\r\n      <workItem from=\"1670895983956\" duration=\"23081000\" />\r\n      <workItem from=\"1670937062846\" duration=\"805000\" />\r\n      <workItem from=\"1670938331509\" duration=\"26671000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"update fontend\">\r\n      <created>1670924003972</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670924003972</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"update fontend\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"update fontend\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision fd9860430d8394c11a192a05f76ff0d5ebd429af)
++++ b/.idea/workspace.xml	(date 1670999999000)
+@@ -2,16 +2,19 @@
+ <project version="4">
+   <component name="ChangeListManager">
+     <list default="true" id="7a3f2373-1aed-47c8-9466-5a3bb3043fb0" name="Changes" comment="update fontend">
+-      <change afterPath="$PROJECT_DIR$/Images/BackGround/z3958523590749_cc39c7ceba0a07594c2427adbfac59a4.jpg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Images/BackGround/z3958523595058_a391835201b2a72ae90283d09d37e80a.jpg" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/JSMD4/register.js" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/JSMD4/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/JSMD4/login.js" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/JSMD4/profile_coach.js" beforeDir="false" afterPath="$PROJECT_DIR$/JSMD4/profile_coach.js" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/JSMD4/profile_player.js" beforeDir="false" afterPath="$PROJECT_DIR$/JSMD4/profile_player.js" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/JSMD4/tables.js" beforeDir="false" afterPath="$PROJECT_DIR$/JSMD4/tables.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/_Wrapper_Footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_Wrapper_Footer.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/assets/css/app-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/app-style.css" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/assets/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/index.js" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/profile_coach.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile_coach.html" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/profile_player.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile_player.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/tables.html" beforeDir="false" afterPath="$PROJECT_DIR$/tables.html" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -43,14 +46,13 @@
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+     "WebServerToolWindowFactoryState": "false",
+-    "last_opened_file_path": "C:/Users/Van vui ve/Desktop/new_case1/FoolBall_view/Images/BackGround",
++    "last_opened_file_path": "C:/Users/Van vui ve/Desktop/new_case1/FoolBall_view",
+     "nodejs_package_manager_path": "npm",
+     "settings.editor.selected.configurable": "project.scopes"
+   }
+ }]]></component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+-      <recent name="C:\Users\Van vui ve\Desktop\new_case1\FoolBall_view\Images\BackGround" />
+       <recent name="C:\Users\Van vui ve\Desktop\new_case1\FoolBall_view\.idea" />
+     </key>
+     <key name="MoveFile.RECENT_KEYS">
+@@ -85,7 +87,7 @@
+       <workItem from="1670894899283" duration="5000" />
+       <workItem from="1670895983956" duration="23081000" />
+       <workItem from="1670937062846" duration="805000" />
+-      <workItem from="1670938331509" duration="26671000" />
++      <workItem from="1670938331509" duration="19239000" />
+     </task>
+     <task id="LOCAL-00001" summary="update fontend">
+       <created>1670924003972</created>
