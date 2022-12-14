@@ -209,6 +209,7 @@ function editPlayer() {
     let performance = $('#performance-player-edit').val();
     let status = $('#status-player-edit').val();
     let password = $('#password-player-edit').val();
+    alert("code ngu qua")
     if (gmail === '') {
         document.getElementById("card-edit-player").innerHTML = "Gmail cannot be blank!";
         return false;

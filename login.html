@@ -20,50 +20,6 @@
     <link href="assets/css/icons.css" rel="stylesheet" type="text/css"/>
     <!-- Custom Style-->
     <link href="assets/css/app-style.css" rel="stylesheet"/>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/jquery.min.js"></script>
-    <script>
-        function login() {
-            // let gmail = document.getElementById("gmail").value;
-            // let password = document.getElementById("password").value;
-            let gmail = $("#gmail").val();
-            let password = $("#password").val();
-
-            let Account = {
-                gmail: gmail,
-                password: password,
-            };
-            $.ajax({
-                type: "POST",
-                headers: {
-                    // // kiểu dữ liệu nhận về
-                    // 'Accept': 'application/json',
-                    // // kiểu truyền đi
-                    'Content-Type': 'application/json'
-                },
-                url: "http://localhost:8080/api/login",
-                data: JSON.stringify(Account),
-                //xử lý khi thành công
-                success: function (data) {
-                    // alert("thành công")
-                    localStorage.setItem("token", data.token);
-                    location.href = "index.html"
-                },
-                error: function (err) {
-                    document.getElementById('messageLogin').innerHTML = "Login fail ! Try again please !";
-                }
-            })
-            event.preventDefault();
-
-            function logout() {
-                localStorage.setItem("token", "")
-                location.href = "login.html"
-            }
-        }
-    </script>
 </head>
 
 <body class="bg-theme bg-theme3">
@@ -97,7 +53,7 @@
                 </div>
                 <div class="card-title text-uppercase text-center py-3" id="error_login">Sign In</div>
                 <div class="form-group">
-                    <label for="exampleInputUsername" class="sr-only">Username</label>
+                    <label for="gmail" class="sr-only">Username</label>
                     <div class="position-relative has-icon-right">
                         <input type="email" id="gmail" class="form-control input-shadow"
                                placeholder="Enter Email" required>
@@ -107,12 +63,15 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputPassword" class="sr-only">Password</label>
+                    <label for="password" class="sr-only">Password</label>
                     <div class="position-relative has-icon-right">
                         <input type="password" id="password" class="form-control input-shadow"
                                placeholder="Enter Password" required>
                         <div class="form-control-position">
                             <i class="icon-lock"></i>
+                        </div>
+                        <div class="messageLogin">
+
                         </div>
                     </div>
                 </div>
@@ -127,8 +86,8 @@
                         <a href="reset-password.html">Reset Password</a>
                     </div>
                 </div>
-                <input class="btn btn-light btn-block" onclick="login()" type="submit" value="Sign In">
-                <div class="text-center mt-3">Sign In With</div>
+                <button class="btn btn-light btn-block" onclick="loginabc()" >Sign in</button>
+                <div class="text-center mt-3" >Sign In With</div>
                 <div class="form-row mt-4">
                     <div class="form-group mb-0 col-6">
                         <button type="button" class="btn btn-light btn-block" href="https://www.facebook.com">
@@ -187,16 +146,14 @@
 
 </div><!--wrapper-->
 
-<!-- Bootstrap core JavaScript-->
+</body>
 <script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/popper.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 
-<!-- sidebar-menu js -->
 <script src="assets/js/sidebar-menu.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-<!-- Custom scripts -->
-<script src="assets/js/app-script.js"></script>
+
 <script src="JSMD4/login.js"></script>
-</body>
+
 </html>

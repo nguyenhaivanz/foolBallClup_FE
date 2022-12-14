@@ -19,7 +19,6 @@ function displayCoach(coach) {
 
 function onclickEditCoach(id){
     localStorage.setItem('id_coach', id);
-    findCoachById();
     window.location.href = "profile_coach.html";
 }
 
@@ -101,10 +100,11 @@ function searchCoach() {
 
 //Delete
 function deleteCoach(id) {
+
     if (confirm("Are you sure you want to delete coach ?")){
         $.ajax({
             type: "DELETE",
-            url: `http://localhost:8080/api/coach/delete-coach/${id}`,
+            url: "http://localhost:8080/api/coach/delete-coach/"+id,
             success: function () {
                 getCoachByPage(0);
             }
@@ -204,8 +204,9 @@ function delete_player(id) {
     if (confirm("Are you sure you want to delete player ?")){
         $.ajax({
             type: "DELETE",
-            url: `http://localhost:8080/api/player/delete-player/${id}`,
+            url: "http://localhost:8080/api/player/delete-player/" + id,
             success: function () {
+                alert("ok");
                 getPlayerByPage(0);
             }
         });

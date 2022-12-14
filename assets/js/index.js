@@ -1,8 +1,5 @@
 $(function() {
-    "use strict";
-
-     // chart 1
-	 
+    "use strict"
 		  var ctx = document.getElementById('chart1').getContext('2d');
 			var myChart = new Chart(ctx, {
 				type: 'line',

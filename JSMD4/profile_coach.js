@@ -1,13 +1,13 @@
-if (currentUser.roles[0].authority === "ADMIN" || currentUser.roles[0].authority === "COACH"){
-    document.getElementById("edit-coach").hidden = false;
-}
+// if (currentUser.roles[0].authority === "ADMIN" || currentUser.roles[0].authority === "COACH"){
+//     document.getElementById("edit-coach").hidden = false;
+// }
 
 function getTypeCoach() {
     $.ajax({
-        type: "GET", //tên API
-        url: `http://localhost:8080/api/coach/type-coach`, //xử lý khi thành công
+        type: "GET",
+        url: `http://localhost:8080/api/coach/type-coach`,
         success: function (data) {
-            let content = '<select id="coachType-coach-edit" class="form-control">\n'
+            let content = '<select id="coachType-coach-edit" class="form-control">'
             for (let i = 0; i < data.length; i++) {
                 content += displayTypeCoach(data[i]);
             }
@@ -92,12 +92,15 @@ function displayValueCoach(coach) {
             </tr>`;
 }
 
-function findCoachById() {
+let id_coach = localStorage.getItem('id_coach');
+
+function findCoachById(id) {
     $.ajax({
         type: "GET",
-        url: `http://localhost:8080/api/coach/find-coach-by-id/${localStorage.getItem("id_coach")}`,
+        url: "http://localhost:8080/api/coach/find-coach-by-id/"+id,
         success: function (data) {
-            document.getElementById("displayBGCoach").innerHTML = displayBGCoach(data);
+            let  img = data.avatarBackGround;
+            document.getElementById("displayBGCoach").src = img;
             document.getElementById("displayAvaCoach").innerHTML = displayAvaCoach(data);
             document.getElementById("displayValueCoach").innerHTML = displayValueCoach(data);
             console.log(localStorage.getItem("id_coach"));
@@ -106,7 +109,7 @@ function findCoachById() {
     });
 }
 
-findCoachById();
+findCoachById(id_coach);
 
 function editCoach() {
     let data = new FormData();

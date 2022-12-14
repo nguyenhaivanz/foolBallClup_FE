@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7a3f2373-1aed-47c8-9466-5a3bb3043fb0" name="Changes" comment="update fontend">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JSMD4/register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSMD4/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/JSMD4/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSMD4/profile_coach.js" beforeDir="false" afterPath="$PROJECT_DIR$/JSMD4/profile_coach.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSMD4/profile_player.js" beforeDir="false" afterPath="$PROJECT_DIR$/JSMD4/profile_player.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSMD4/tables.js" beforeDir="false" afterPath="$PROJECT_DIR$/JSMD4/tables.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile_coach.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile_coach.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile_player.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile_player.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tables.html" beforeDir="false" afterPath="$PROJECT_DIR$/tables.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IoHnH5ceQwq1eT4SaDj4rcH1ZD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Van vui ve/Desktop/new_case1/FoolBall_view",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.scopes"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Van vui ve\Desktop\new_case1\FoolBall_view\.idea" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Van vui ve\Desktop\new_case1\FoolBall_view" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="FoolBall_view" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="FoolBall_view" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a3f2373-1aed-47c8-9466-5a3bb3043fb0" name="Changes" comment="" />
+      <created>1670841182427</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670841182427</updated>
+      <workItem from="1670841186424" duration="220000" />
+      <workItem from="1670850062805" duration="2650000" />
+      <workItem from="1670894899283" duration="5000" />
+      <workItem from="1670895983956" duration="23081000" />
+      <workItem from="1670937062846" duration="805000" />
+      <workItem from="1670938331509" duration="19239000" />
+    </task>
+    <task id="LOCAL-00001" summary="update fontend">
+      <created>1670924003972</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670924003972</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update fontend" />
+    <option name="LAST_COMMIT_MESSAGE" value="update fontend" />
+  </component>
+</project>

@@ -20,7 +20,8 @@
   <link href="assets/css/icons.css" rel="stylesheet" type="text/css"/>
   <!-- Custom Style-->
   <link href="assets/css/app-style.css" rel="stylesheet"/>
-  
+	<script src="JSMD4/register.js"></script>
+
 </head>
 
 <body class="bg-theme bg-theme3">
@@ -41,33 +42,35 @@
 		  <div class="card-title text-uppercase text-center py-3">Sign Up</div>
 		    <form>
 			  <div class="form-group">
-			  <label for="exampleInputName" class="sr-only">Name</label>
+			  <label for="gmail" class="sr-only">Email ID</label>
 			   <div class="position-relative has-icon-right">
-				  <input type="text" id="exampleInputName" class="form-control input-shadow" placeholder="Enter Your Name">
-				  <div class="form-control-position">
-					  <i class="icon-user"></i>
-				  </div>
-			   </div>
-			  </div>
-			  <div class="form-group">
-			  <label for="exampleInputEmailId" class="sr-only">Email ID</label>
-			   <div class="position-relative has-icon-right">
-				  <input type="text" id="exampleInputEmailId" class="form-control input-shadow" placeholder="Enter Your Email ID">
+				  <input type="email" id="gmail" class="form-control input-shadow"  placeholder="Enter Your Email ID" required>
 				  <div class="form-control-position">
 					  <i class="icon-envelope-open"></i>
 				  </div>
 			   </div>
 			  </div>
 			  <div class="form-group">
-			   <label for="exampleInputPassword" class="sr-only">Password</label>
+			   <label for="password" class="sr-only">Password</label>
 			   <div class="position-relative has-icon-right">
-				  <input type="text" id="exampleInputPassword" class="form-control input-shadow" placeholder="Choose Password">
+				  <input type="password" id="password" class="form-control input-shadow" placeholder="Choose Password" required>
 				  <div class="form-control-position">
 					  <i class="icon-lock"></i>
 				  </div>
 			   </div>
 			  </div>
-			  
+
+				<div class="form-group">
+					<label for="repassword" class="sr-only">Password</label>
+					<div class="position-relative has-icon-right">
+						<input type="password" id="repassword" class="form-control input-shadow" placeholder="Nhập lại Password" required oninput="checkpass()">
+						<div class="form-control-position">
+							<i class="icon-lock"></i>
+						</div>
+						<div id="repass-err"></div>
+					</div>
+				</div>
+
 			   <div class="form-group">
 			     <div class="icheck-material-white">
                    <input type="checkbox" id="user-checkbox" checked="" />
@@ -75,9 +78,9 @@
 			     </div>
 			    </div>
 			  
-			 <button type="button" class="btn btn-light btn-block waves-effect waves-light" onclick="">Sign Up</button>
+			 <button type="button" class="btn btn-light btn-block waves-effect waves-light" onclick="dangki()">Sign Up</button>
 			  <div class="text-center mt-3">Sign Up With</div>
-			  
+
 			 <div class="form-row mt-4">
 			  <div class="form-group mb-0 col-6">
 			   <button type="button" class="btn btn-light btn-block"><i class="fa fa-facebook-square"></i> Facebook</button>
@@ -97,9 +100,6 @@
     
      <!--Start Back To Top Button-->
     <a href="#" class="back-to-top"><i class="fa fa-angle-double-up"></i> </a>
-    <!--End Back To Top Button-->
-	
-	<!--start color switcher-->
    <div class="right-sidebar">
     <div class="switcher-icon">
       <i class="zmdi zmdi-settings zmdi-hc-spin"></i>
@@ -136,12 +136,10 @@
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/popper.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
-	
-  <!-- sidebar-menu js -->
+
   <script src="assets/js/sidebar-menu.js"></script>
-  
-  <!-- Custom scripts -->
+
   <script src="assets/js/app-script.js"></script>
-  
+
 </body>
 </html>
